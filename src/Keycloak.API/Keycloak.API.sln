@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keycloak.API", "Keycloak.API\Keycloak.API.csproj", "{00BED620-8766-4E52-AC21-682EB51F43AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B8BDDC9-C17C-45AD-942F-252122FF8583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{8B95C9FE-121A-4BE2-94E4-1652FB54954E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\docker\docker_infrastructure.yml = ..\..\docker\docker_infrastructure.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00BED620-8766-4E52-AC21-682EB51F43AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BED620-8766-4E52-AC21-682EB51F43AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BED620-8766-4E52-AC21-682EB51F43AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BED620-8766-4E52-AC21-682EB51F43AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00BED620-8766-4E52-AC21-682EB51F43AC} = {9B8BDDC9-C17C-45AD-942F-252122FF8583}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE83259A-2BA5-4EC7-A825-B4485D5949C8}
+	EndGlobalSection
+EndGlobal
