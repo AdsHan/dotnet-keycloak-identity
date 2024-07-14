@@ -1,5 +1,5 @@
 # dotnet-keycloak-identity
-Demonstração da utilização do KeyCloak como gerenciador de identidade e acesso em aplicações .NET.
+Demonstração prática da utilização do Keycloak como gerenciador de identidade e acesso em aplicações .NET.
 
 # Como executar:
 - Clonar / baixar o repositório em seu workplace.
